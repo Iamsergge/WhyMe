@@ -1,3 +1,10 @@
+
+import React from 'react';
+import image8 from '../assets/image8.jpeg';
+import image9 from '../assets/image9.jpeg';
+import image10 from '../assets/image10.jpeg';
+
+
 export default function Header() {
   return (
     <div className="container">
@@ -17,9 +24,9 @@ export default function Header() {
         <button>schedule a call</button>
         <h1>Latest Work</h1>
         <div className="latest-work">
-        <img src=".\components\image8.jpeg" alt="image8"/>
-            <img src=".\components\image9.jpeg" alt="image9"/>
-            <img src=".\componets\image10.jpeg" alt="image10"/>
+            <img src={image8} style={{width:'200px',height:'200px', borderRadius: '10%'}}/>
+            <img src={image9} style={{width: '200px', height:'200px', borderRadius: '10%'}} />
+            <img src={image10} style={{width: '200px', height: '200PX', borderRadius: '10%'}} />
         </div>
         <a href="#">View All</a>
       </div>
